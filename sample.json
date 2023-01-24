@@ -1,0 +1,1843 @@
+{
+    "fkncmgkz": {
+        "startedDateTime": "2023-01-24T13:15:51.074Z",
+        "time": 135.74100006371737,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328205",
+        "request_method": "POST",
+        "request_url": "http://192.168.150.209:8081/auth/login",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "undefined"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "51"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {
+            "mimeType": "application/json",
+            "text": "{\"userName\":\"bob.williams\",\"password\":\"Global@123\"}"
+        },
+        "request_postData_mimeType": "application/json",
+        "request_postData_params": [],
+        "request_postData_text": "{\"userName\":\"bob.williams\",\"password\":\"Global@123\"}",
+        "request_headersSize": 437,
+        "request_bodySize": 51,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 925,
+            "mimeType": "application/json",
+            "compression": -13,
+            "text": "{\"token\":\"eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA\",\"status\":\"success\"}"
+        },
+        "response_content_size": 925,
+        "response_content_compression": -13,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"token\":\"eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA\",\"status\":\"success\"}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 282,
+        "response_bodySize": 938,
+        "timings_blocked": 18.542000011473895,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.04400000000000004,
+        "timings_wait": 116.46100000647455,
+        "timings_receive": 0.6940000457689166,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/auth/login",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "zadxgvzj": {
+        "startedDateTime": "2023-01-24T13:15:51.078Z",
+        "time": 13.508999947004021,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328205",
+        "request_method": "OPTIONS",
+        "request_url": "http://192.168.150.209:8081/auth/login",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "*/*"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Access-Control-Request-Headers",
+                "value": "authorization,content-type"
+            },
+            {
+                "name": "Access-Control-Request-Method",
+                "value": "POST"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "Sec-Fetch-Mode",
+                "value": "cors"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 468,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Headers",
+                "value": "authorization, content-type"
+            },
+            {
+                "name": "Access-Control-Allow-Methods",
+                "value": "POST"
+            },
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Access-Control-Max-Age",
+                "value": "1800"
+            },
+            {
+                "name": "Allow",
+                "value": "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "0"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 419
+        },
+        "response_content_size": 0,
+        "response_content_compression": 419,
+        "response_content_mimeType": "x-unknown",
+        "response_content_text": "",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 419,
+        "response_bodySize": -419,
+        "timings_blocked": -0.5880000000000001,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.04700000000000004,
+        "timings_wait": 13.087000001952052,
+        "timings_receive": 0.3749999450519681,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/auth/login",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "qlmszxbi": {
+        "startedDateTime": "2023-01-24T13:15:51.228Z",
+        "time": 35.644000046886504,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328305",
+        "request_method": "GET",
+        "request_url": "http://192.168.150.209:8081/SavedSearch/GetFavouriteSavedSearch?page=1&resultsPerPage=999999&user_id=12",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [
+            {
+                "name": "page",
+                "value": "1"
+            },
+            {
+                "name": "resultsPerPage",
+                "value": "999999"
+            },
+            {
+                "name": "user_id",
+                "value": "12"
+            }
+        ],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 1366,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 8213,
+            "mimeType": "application/json",
+            "compression": -20,
+            "text": "{\"response\":{\"totalCount\":6,\"status\":\"success\",\"savedSearch\":[{\"saved_search_id\":108,\"saved_search_name\":\"qwerty\",\"saved_search_desc\":\"qwerty\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Transaction_XML\",\"search_criteria\":\"[]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":107,\"saved_search_name\":\"test1234\",\"saved_search_desc\":\"testing...\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Enron_DataBeagle_Demo_Index\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":106,\"saved_search_name\":\"Savetest\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"ECM1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hillia\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-23T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-24T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-25\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"room playback\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":105,\"saved_search_name\":\"temp\",\"saved_search_desc\":\"temp\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2001-05-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"AFTER\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":102,\"saved_search_name\":\"densus\",\"saved_search_desc\":\"densus_desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"DENSUS88_V_1\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"densus88\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"hcp_system_name\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hcp-demo.hcpdemo.com\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-22T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":101,\"saved_search_name\":\"citi\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"image/png\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hidotenant\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Attachment\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-24\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null}]}}"
+        },
+        "response_content_size": 8213,
+        "response_content_compression": -20,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"response\":{\"totalCount\":6,\"status\":\"success\",\"savedSearch\":[{\"saved_search_id\":108,\"saved_search_name\":\"qwerty\",\"saved_search_desc\":\"qwerty\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Transaction_XML\",\"search_criteria\":\"[]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":107,\"saved_search_name\":\"test1234\",\"saved_search_desc\":\"testing...\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Enron_DataBeagle_Demo_Index\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":106,\"saved_search_name\":\"Savetest\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"ECM1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hillia\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-23T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-24T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-25\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"room playback\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":105,\"saved_search_name\":\"temp\",\"saved_search_desc\":\"temp\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2001-05-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"AFTER\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":102,\"saved_search_name\":\"densus\",\"saved_search_desc\":\"densus_desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"DENSUS88_V_1\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"densus88\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"hcp_system_name\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hcp-demo.hcpdemo.com\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-22T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":101,\"saved_search_name\":\"citi\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"image/png\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hidotenant\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Attachment\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-24\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null}]}}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 282,
+        "response_bodySize": 8233,
+        "timings_blocked": 2.273000009737909,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.04699999999999993,
+        "timings_wait": 32.405000024348496,
+        "timings_receive": 0.9190000128000975,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/SavedSearch/GetFavouriteSavedSearch?page=1&resultsPerPage=999999&user_id=12",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "wogbtdgz": {
+        "startedDateTime": "2023-01-24T13:15:51.228Z",
+        "time": 2063.507999991998,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328297",
+        "request_method": "GET",
+        "request_url": "http://192.168.150.209:8081/search/getallindexes",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 1311,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:52 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 869,
+            "mimeType": "application/json",
+            "compression": -13,
+            "text": "{\"indexes\":[\"Transaction_XML\",\"BCV\",\"ECM1_8\",\"test\",\"ECM1_8_5_TAGS\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE\",\"CLONED_ECM1_8_5\",\"EnronIndex\",\"reportIndex_V_3\",\"DENSUS88_V_2_Clone\",\"Verint_Comet_Index\",\"citi_index_1_8_5\",\"DENSUS88_V_4\",\"Transaction_log_new\",\"DENSUS88_V_3\",\"Transaction_log\",\"AWPodIndexNew\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE_Clone\",\"Ebay_PersonalInformation\",\"DENSUS_V_2_NEW_CLONE\",\"Enron_DataBeagle_Demo_Index\",\"databeagle_matter_v_1\",\"citi_index_1_8_5_testing\",\"syslogindexHCnext\",\"AWPodIndex1\",\"DENSUS88_V_1\",\"DENSUS88_V_2\",\"ECM1_8_5\",\"Ebay_CreditCard_Merged_Crawled\",\"Ebay_CreditCard_updated\",\"EbayCreditCardAndPIIndex_ziptest\",\"ECM1_7\",\"AWPodIndex\",\"ECM1_8_1\",\"test2\",\"RABO_ECM1_8_5\",\"EbayCreditCardMergedIndex\",\"NewECM1_8_4\",\"Enron_DataBeagle_Demo\",\"SYSLOGIDX\",\"ECMUat_Optimized\",\"EbayCreditCardAndPIIndex\"],\"status\":\"success\"}"
+        },
+        "response_content_size": 869,
+        "response_content_compression": -13,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"indexes\":[\"Transaction_XML\",\"BCV\",\"ECM1_8\",\"test\",\"ECM1_8_5_TAGS\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE\",\"CLONED_ECM1_8_5\",\"EnronIndex\",\"reportIndex_V_3\",\"DENSUS88_V_2_Clone\",\"Verint_Comet_Index\",\"citi_index_1_8_5\",\"DENSUS88_V_4\",\"Transaction_log_new\",\"DENSUS88_V_3\",\"Transaction_log\",\"AWPodIndexNew\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE_Clone\",\"Ebay_PersonalInformation\",\"DENSUS_V_2_NEW_CLONE\",\"Enron_DataBeagle_Demo_Index\",\"databeagle_matter_v_1\",\"citi_index_1_8_5_testing\",\"syslogindexHCnext\",\"AWPodIndex1\",\"DENSUS88_V_1\",\"DENSUS88_V_2\",\"ECM1_8_5\",\"Ebay_CreditCard_Merged_Crawled\",\"Ebay_CreditCard_updated\",\"EbayCreditCardAndPIIndex_ziptest\",\"ECM1_7\",\"AWPodIndex\",\"ECM1_8_1\",\"test2\",\"RABO_ECM1_8_5\",\"EbayCreditCardMergedIndex\",\"NewECM1_8_4\",\"Enron_DataBeagle_Demo\",\"SYSLOGIDX\",\"ECMUat_Optimized\",\"EbayCreditCardAndPIIndex\"],\"status\":\"success\"}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 282,
+        "response_bodySize": 882,
+        "timings_blocked": 21.523999943189324,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.07000000000000006,
+        "timings_wait": 2041.2110000509247,
+        "timings_receive": 0.7029999978840351,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/search/getallindexes",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "plzvarfr": {
+        "startedDateTime": "2023-01-24T13:15:51.229Z",
+        "time": 32.23200002685189,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328213",
+        "request_method": "GET",
+        "request_url": "http://192.168.150.209:8081/Users/getAllUsers",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 1308,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "546"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 546,
+            "mimeType": "application/json",
+            "compression": -1,
+            "text": "{\"code\":[\"200\"],\"data\":[[{\"user_name\":\"bob.williams\",\"active\":true,\"admin\":true,\"id\":1,\"email\":\"bob.williams@audaxlabs.com\"},{\"user_name\":\"john.smith\",\"active\":true,\"admin\":true,\"id\":2,\"email\":\"john.smith@audaxlabs.com\"},{\"user_name\":\"rakesh.sharma\",\"active\":true,\"admin\":false,\"id\":3,\"email\":\"rakeshs@audaxlabs.com\"},{\"user_name\":\"baidyanath.kumar\",\"active\":true,\"admin\":false,\"id\":4,\"email\":\"baidyanathk@audaxlabs.com\"},{\"user_name\":\"himanshu.madaan\",\"active\":true,\"admin\":true,\"id\":5,\"email\":\"himanshum@audaxlabs.com\"}]],\"message\":[\"Success\"]}"
+        },
+        "response_content_size": 546,
+        "response_content_compression": -1,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"code\":[\"200\"],\"data\":[[{\"user_name\":\"bob.williams\",\"active\":true,\"admin\":true,\"id\":1,\"email\":\"bob.williams@audaxlabs.com\"},{\"user_name\":\"john.smith\",\"active\":true,\"admin\":true,\"id\":2,\"email\":\"john.smith@audaxlabs.com\"},{\"user_name\":\"rakesh.sharma\",\"active\":true,\"admin\":false,\"id\":3,\"email\":\"rakeshs@audaxlabs.com\"},{\"user_name\":\"baidyanath.kumar\",\"active\":true,\"admin\":false,\"id\":4,\"email\":\"baidyanathk@audaxlabs.com\"},{\"user_name\":\"himanshu.madaan\",\"active\":true,\"admin\":true,\"id\":5,\"email\":\"himanshum@audaxlabs.com\"}]],\"message\":[\"Success\"]}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 275,
+        "response_bodySize": 547,
+        "timings_blocked": 2.6960000693202018,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.028999999999999915,
+        "timings_wait": 28.7500000141263,
+        "timings_receive": 0.7569999434053898,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/Users/getAllUsers",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "xbegynda": {
+        "startedDateTime": "2023-01-24T13:15:51.229Z",
+        "time": 69.7120000841096,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328205",
+        "request_method": "GET",
+        "request_url": "http://192.168.150.209:8081/SavedSearch/GetFavouriteSavedSearch?page=1&resultsPerPage=999999&user_id=12",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [
+            {
+                "name": "page",
+                "value": "1"
+            },
+            {
+                "name": "resultsPerPage",
+                "value": "999999"
+            },
+            {
+                "name": "user_id",
+                "value": "12"
+            }
+        ],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 1366,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 8213,
+            "mimeType": "application/json",
+            "compression": -20,
+            "text": "{\"response\":{\"totalCount\":6,\"status\":\"success\",\"savedSearch\":[{\"saved_search_id\":108,\"saved_search_name\":\"qwerty\",\"saved_search_desc\":\"qwerty\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Transaction_XML\",\"search_criteria\":\"[]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":107,\"saved_search_name\":\"test1234\",\"saved_search_desc\":\"testing...\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Enron_DataBeagle_Demo_Index\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":106,\"saved_search_name\":\"Savetest\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"ECM1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hillia\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-23T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-24T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-25\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"room playback\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":105,\"saved_search_name\":\"temp\",\"saved_search_desc\":\"temp\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2001-05-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"AFTER\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":102,\"saved_search_name\":\"densus\",\"saved_search_desc\":\"densus_desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"DENSUS88_V_1\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"densus88\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"hcp_system_name\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hcp-demo.hcpdemo.com\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-22T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":101,\"saved_search_name\":\"citi\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"image/png\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hidotenant\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Attachment\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-24\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null}]}}"
+        },
+        "response_content_size": 8213,
+        "response_content_compression": -20,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"response\":{\"totalCount\":6,\"status\":\"success\",\"savedSearch\":[{\"saved_search_id\":108,\"saved_search_name\":\"qwerty\",\"saved_search_desc\":\"qwerty\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Transaction_XML\",\"search_criteria\":\"[]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":107,\"saved_search_name\":\"test1234\",\"saved_search_desc\":\"testing...\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"Enron_DataBeagle_Demo_Index\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":106,\"saved_search_name\":\"Savetest\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"ECM1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hillia\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-23T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-24T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-25\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Participants\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"room playback\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":105,\"saved_search_name\":\"temp\",\"saved_search_desc\":\"temp\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2001-05-02\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"AFTER\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-24\\\",\\\"to\\\":\\\"*\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":102,\"saved_search_name\":\"densus\",\"saved_search_desc\":\"densus_desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"DENSUS88_V_1\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Chat\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"densus88\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"hcp_system_name\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hcp-demo.hcpdemo.com\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"2023-01-22T18:30:00.000Z\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-23\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null},{\"saved_search_id\":101,\"saved_search_name\":\"citi\",\"saved_search_desc\":\"desc\",\"is_favourite\":true,\"is_active\":true,\"index_name\":\"citi_index_1_8_5\",\"search_criteria\":\"[{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Email\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"image/png\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Tenant\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"hidotenant\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"Content_Type\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"Attachment\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"\\\",\\\"to\\\":\\\"\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"EQUALS\\\"},{\\\"fieldClose\\\":\\\"\\\",\\\"fieldCondition\\\":\\\"AND\\\",\\\"fieldName\\\":\\\"StartDate\\\",\\\"fieldOpen\\\":\\\"\\\",\\\"fieldValue\\\":\\\"\\\",\\\"searchType\\\":\\\"byfield\\\",\\\"sortField\\\":\\\"\\\",\\\"image\\\":\\\"false\\\",\\\"s3_IMAGE_PATH\\\":\\\"\\\",\\\"reuse\\\":\\\"false\\\",\\\"from\\\":\\\"2023-01-23\\\",\\\"to\\\":\\\"2023-01-24\\\",\\\"notCondition\\\":\\\"\\\",\\\"radioCondition\\\":\\\"RANGE\\\"}]\",\"create_date\":null,\"create_user_id\":null,\"modified_date\":null,\"modified_user_id\":null,\"owner_user_id\":\"12\",\"timestamp\":null}]}}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 282,
+        "response_bodySize": 8233,
+        "timings_blocked": 34.22700000636279,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.07600000000000051,
+        "timings_wait": 34.76999998511374,
+        "timings_receive": 0.6390000926330686,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/SavedSearch/GetFavouriteSavedSearch?page=1&resultsPerPage=999999&user_id=12",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "obqhzjjr": {
+        "startedDateTime": "2023-01-24T13:15:51.230Z",
+        "time": 3094.0959999570623,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328297",
+        "request_method": "GET",
+        "request_url": "http://192.168.150.209:8081/search/getallindexes",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 1311,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:53 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 869,
+            "mimeType": "application/json",
+            "compression": -13,
+            "text": "{\"indexes\":[\"Transaction_XML\",\"BCV\",\"ECM1_8\",\"test\",\"ECM1_8_5_TAGS\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE\",\"CLONED_ECM1_8_5\",\"EnronIndex\",\"reportIndex_V_3\",\"DENSUS88_V_2_Clone\",\"Verint_Comet_Index\",\"citi_index_1_8_5\",\"DENSUS88_V_4\",\"Transaction_log_new\",\"DENSUS88_V_3\",\"Transaction_log\",\"AWPodIndexNew\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE_Clone\",\"Ebay_PersonalInformation\",\"DENSUS_V_2_NEW_CLONE\",\"Enron_DataBeagle_Demo_Index\",\"databeagle_matter_v_1\",\"citi_index_1_8_5_testing\",\"syslogindexHCnext\",\"AWPodIndex1\",\"DENSUS88_V_1\",\"DENSUS88_V_2\",\"ECM1_8_5\",\"Ebay_CreditCard_Merged_Crawled\",\"Ebay_CreditCard_updated\",\"EbayCreditCardAndPIIndex_ziptest\",\"ECM1_7\",\"AWPodIndex\",\"ECM1_8_1\",\"test2\",\"RABO_ECM1_8_5\",\"EbayCreditCardMergedIndex\",\"NewECM1_8_4\",\"Enron_DataBeagle_Demo\",\"SYSLOGIDX\",\"ECMUat_Optimized\",\"EbayCreditCardAndPIIndex\"],\"status\":\"success\"}"
+        },
+        "response_content_size": 869,
+        "response_content_compression": -13,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"indexes\":[\"Transaction_XML\",\"BCV\",\"ECM1_8\",\"test\",\"ECM1_8_5_TAGS\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE\",\"CLONED_ECM1_8_5\",\"EnronIndex\",\"reportIndex_V_3\",\"DENSUS88_V_2_Clone\",\"Verint_Comet_Index\",\"citi_index_1_8_5\",\"DENSUS88_V_4\",\"Transaction_log_new\",\"DENSUS88_V_3\",\"Transaction_log\",\"AWPodIndexNew\",\"AB_March_HIDO_PII_DATA_ASSESSMENT_IDX_TEMPLATE_Clone\",\"Ebay_PersonalInformation\",\"DENSUS_V_2_NEW_CLONE\",\"Enron_DataBeagle_Demo_Index\",\"databeagle_matter_v_1\",\"citi_index_1_8_5_testing\",\"syslogindexHCnext\",\"AWPodIndex1\",\"DENSUS88_V_1\",\"DENSUS88_V_2\",\"ECM1_8_5\",\"Ebay_CreditCard_Merged_Crawled\",\"Ebay_CreditCard_updated\",\"EbayCreditCardAndPIIndex_ziptest\",\"ECM1_7\",\"AWPodIndex\",\"ECM1_8_1\",\"test2\",\"RABO_ECM1_8_5\",\"EbayCreditCardMergedIndex\",\"NewECM1_8_4\",\"Enron_DataBeagle_Demo\",\"SYSLOGIDX\",\"ECMUat_Optimized\",\"EbayCreditCardAndPIIndex\"],\"status\":\"success\"}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 282,
+        "response_bodySize": 882,
+        "timings_blocked": 2062.3639999965653,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.055000000000063665,
+        "timings_wait": 1030.5670000067278,
+        "timings_receive": 1.1099999537691474,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/search/getallindexes",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "ktejcwgi": {
+        "startedDateTime": "2023-01-24T13:15:51.230Z",
+        "time": 59.31599996984005,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328213",
+        "request_method": "GET",
+        "request_url": "http://192.168.150.209:8081/Users/getAllUsers",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 1308,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "546"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 546,
+            "mimeType": "application/json",
+            "compression": -1,
+            "text": "{\"code\":[\"200\"],\"data\":[[{\"user_name\":\"bob.williams\",\"active\":true,\"admin\":true,\"id\":1,\"email\":\"bob.williams@audaxlabs.com\"},{\"user_name\":\"john.smith\",\"active\":true,\"admin\":true,\"id\":2,\"email\":\"john.smith@audaxlabs.com\"},{\"user_name\":\"rakesh.sharma\",\"active\":true,\"admin\":false,\"id\":3,\"email\":\"rakeshs@audaxlabs.com\"},{\"user_name\":\"baidyanath.kumar\",\"active\":true,\"admin\":false,\"id\":4,\"email\":\"baidyanathk@audaxlabs.com\"},{\"user_name\":\"himanshu.madaan\",\"active\":true,\"admin\":true,\"id\":5,\"email\":\"himanshum@audaxlabs.com\"}]],\"message\":[\"Success\"]}"
+        },
+        "response_content_size": 546,
+        "response_content_compression": -1,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"code\":[\"200\"],\"data\":[[{\"user_name\":\"bob.williams\",\"active\":true,\"admin\":true,\"id\":1,\"email\":\"bob.williams@audaxlabs.com\"},{\"user_name\":\"john.smith\",\"active\":true,\"admin\":true,\"id\":2,\"email\":\"john.smith@audaxlabs.com\"},{\"user_name\":\"rakesh.sharma\",\"active\":true,\"admin\":false,\"id\":3,\"email\":\"rakeshs@audaxlabs.com\"},{\"user_name\":\"baidyanath.kumar\",\"active\":true,\"admin\":false,\"id\":4,\"email\":\"baidyanathk@audaxlabs.com\"},{\"user_name\":\"himanshu.madaan\",\"active\":true,\"admin\":true,\"id\":5,\"email\":\"himanshum@audaxlabs.com\"}]],\"message\":[\"Success\"]}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 275,
+        "response_bodySize": 547,
+        "timings_blocked": 31.0999998985827,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.08699999999999974,
+        "timings_wait": 27.521999989457427,
+        "timings_receive": 0.6070000817999244,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/Users/getAllUsers",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "ifcshzkf": {
+        "startedDateTime": "2023-01-24T13:15:51.231Z",
+        "time": 18.995999978274106,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328205",
+        "request_method": "OPTIONS",
+        "request_url": "http://192.168.150.209:8081/search/getallindexes",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "*/*"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Access-Control-Request-Headers",
+                "value": "authorization,content-type"
+            },
+            {
+                "name": "Access-Control-Request-Method",
+                "value": "GET"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "Sec-Fetch-Mode",
+                "value": "cors"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 477,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Headers",
+                "value": "authorization, content-type"
+            },
+            {
+                "name": "Access-Control-Allow-Methods",
+                "value": "GET"
+            },
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Access-Control-Max-Age",
+                "value": "1800"
+            },
+            {
+                "name": "Allow",
+                "value": "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "0"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 418
+        },
+        "response_content_size": 0,
+        "response_content_compression": 418,
+        "response_content_mimeType": "x-unknown",
+        "response_content_text": "",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 418,
+        "response_bodySize": -418,
+        "timings_blocked": -0.6739999999999999,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.06,
+        "timings_wait": 18.063999974109233,
+        "timings_receive": 0.8720000041648746,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/search/getallindexes",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "nnhcjgsh": {
+        "startedDateTime": "2023-01-24T13:15:51.231Z",
+        "time": 17.813999930620195,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328297",
+        "request_method": "OPTIONS",
+        "request_url": "http://192.168.150.209:8081/search/getallindexes",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "*/*"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Access-Control-Request-Headers",
+                "value": "authorization,content-type"
+            },
+            {
+                "name": "Access-Control-Request-Method",
+                "value": "GET"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "Sec-Fetch-Mode",
+                "value": "cors"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 477,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Headers",
+                "value": "authorization, content-type"
+            },
+            {
+                "name": "Access-Control-Allow-Methods",
+                "value": "GET"
+            },
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Access-Control-Max-Age",
+                "value": "1800"
+            },
+            {
+                "name": "Allow",
+                "value": "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "0"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:15:50 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 418
+        },
+        "response_content_size": 0,
+        "response_content_compression": 418,
+        "response_content_mimeType": "x-unknown",
+        "response_content_text": "",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 418,
+        "response_bodySize": -418,
+        "timings_blocked": -0.385,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.04500000000000004,
+        "timings_wait": 16.847000011391938,
+        "timings_receive": 0.9219999192282557,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/search/getallindexes",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "ylrzlqeh": {
+        "startedDateTime": "2023-01-24T13:16:05.626Z",
+        "time": 950.6830000318587,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "328297",
+        "request_method": "POST",
+        "request_url": "http://192.168.150.209:8081/search/searchNew",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "680"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/form-data; boundary=----WebKitFormBoundary4lGgzDTb1nNNW95W"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {
+            "mimeType": "multipart/form-data; boundary=----WebKitFormBoundary4lGgzDTb1nNNW95W",
+            "text": "------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"data\"\r\n\r\n{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"indexName\"\r\n\r\nAWPodIndexNew\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"pageSize\"\r\n\r\n5\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W--\r\n",
+            "params": [
+                {
+                    "name": "data",
+                    "value": "{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}"
+                },
+                {
+                    "name": "indexName",
+                    "value": "AWPodIndexNew"
+                },
+                {
+                    "name": "page",
+                    "value": "1"
+                },
+                {
+                    "name": "pageSize",
+                    "value": "5"
+                }
+            ]
+        },
+        "request_postData_mimeType": "multipart/form-data; boundary=----WebKitFormBoundary4lGgzDTb1nNNW95W",
+        "request_postData_params": [
+            {
+                "name": "data",
+                "value": "{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}"
+            },
+            {
+                "name": "indexName",
+                "value": "AWPodIndexNew"
+            },
+            {
+                "name": "page",
+                "value": "1"
+            },
+            {
+                "name": "pageSize",
+                "value": "5"
+            }
+        ],
+        "request_postData_text": "------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"data\"\r\n\r\n{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"indexName\"\r\n\r\nAWPodIndexNew\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W\r\nContent-Disposition: form-data; name=\"pageSize\"\r\n\r\n5\r\n------WebKitFormBoundary4lGgzDTb1nNNW95W--\r\n",
+        "request_headersSize": 1381,
+        "request_bodySize": 680,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "54"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:16:06 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 54,
+            "mimeType": "application/json",
+            "compression": -1,
+            "text": "{\"hitCount\":\"0\",\"results\":[],\"facets\":[],\"status\":200}"
+        },
+        "response_content_size": 54,
+        "response_content_compression": -1,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"hitCount\":\"0\",\"results\":[],\"facets\":[],\"status\":200}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 274,
+        "response_bodySize": 55,
+        "timings_blocked": 23.64699997601658,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.08399999999999996,
+        "timings_wait": 926.4329999456256,
+        "timings_receive": 0.5190001102164388,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/search/searchNew",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "pzfbkgsu": {
+        "startedDateTime": "2023-01-24T13:58:26.076Z",
+        "time": 374.2799999890849,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "329513",
+        "request_method": "POST",
+        "request_url": "http://192.168.150.209:8081/search/searchNew",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Authorization",
+                "value": "eyJraWQiOiI5YWRhMmU1MS04NDk5LTQ0YjMtOThjZS1kYzc1ZjJlODY3MDYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJjb20uaGRzLmZvdW5kcnkiLCJqdGkiOiJ4cnVLaUZTaFBVMjlCOHNFLXpBSHBRIiwiaWF0IjoxNjc0NTY2MTQ5LCJuYmYiOjE2NzQ1NjYwMjksInN1YiI6IkNOPUJvYiBXaWxsaWFtcyxPVT1kZXZvcHMsREM9QVVEQVhMQUJTLERDPUNPTSIsInJlYWxtIjoiY29tLmhkcy5lbnNlbWJsZS5wbHVnaW5zLnNlY3VyaXR5LmlkZW50aXR5LmxkYXBBZC5kZTg3MTkyMS0wMDAwLTRhZjEtYjBmNy0yYTY2OTY5NGVhZDkiLCJ1dWlkIjoiNDc4YjY1NDUtN2RhNi00ZDUzLTg0MjYtMTdjYjliNjEyZGYwIiwiY2xpZW50IjoiYTBiYjUzNjMtMzYwZi00MGM3LWI3OTctOGIyMzUzMzZiOTMzIiwiZXhwIjoxNjc0NTczMzQ5fQ.Ho6cOVZKaWFb2-RYkLBmAblQlQmXWtWT5Pcot6zHjfaHJwNq7nWPcMMXTVSQislIj3Ue9QWshXxW9wDwkqY0f1ukXrURBcdYZTGnPZV9pOSr4NBgztoDmG9tL-Vb8cYxtHlzq_ARWkZv4Mct6ZY9S2swOdv6hVDDGWsIvRe481NO-Tv9z3K67V1A3ZLm6u5kMRt092mzjRXBAVmwhj6BAcoOIAt4wb7hf2Up5uVGqyFkfyZsq-QdXrbSFOSK0eu3aEoy6bfSwbYaa6HcjxDT9b0VgXJV1g0J4Px6W0YSAfQu2omjzY5wmEite6Oaae5HPx0Ni761Gseqa2B4Fc6dMA"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "680"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/form-data; boundary=----WebKitFormBoundaryF6quFmwebhfAAbyi"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {
+            "mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryF6quFmwebhfAAbyi",
+            "text": "------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"data\"\r\n\r\n{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"indexName\"\r\n\r\nAWPodIndexNew\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"pageSize\"\r\n\r\n5\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi--\r\n",
+            "params": [
+                {
+                    "name": "data",
+                    "value": "{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}"
+                },
+                {
+                    "name": "indexName",
+                    "value": "AWPodIndexNew"
+                },
+                {
+                    "name": "page",
+                    "value": "1"
+                },
+                {
+                    "name": "pageSize",
+                    "value": "5"
+                }
+            ]
+        },
+        "request_postData_mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryF6quFmwebhfAAbyi",
+        "request_postData_params": [
+            {
+                "name": "data",
+                "value": "{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}"
+            },
+            {
+                "name": "indexName",
+                "value": "AWPodIndexNew"
+            },
+            {
+                "name": "page",
+                "value": "1"
+            },
+            {
+                "name": "pageSize",
+                "value": "5"
+            }
+        ],
+        "request_postData_text": "------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"data\"\r\n\r\n{\"list\":[{\"fieldClose\":\"\",\"fieldCondition\":\"\",\"fieldName\":\"\",\"fieldOpen\":\"\",\"fieldValue\":\"product\",\"searchType\":\"bykeyword\",\"sortField\":\"\",\"image\":\"false\",\"s3_IMAGE_PATH\":\"\",\"reuse\":\"false\",\"from\":\"\",\"to\":\"\",\"notCondition\":\"\",\"radioCondition\":\"\"}]}\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"indexName\"\r\n\r\nAWPodIndexNew\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi\r\nContent-Disposition: form-data; name=\"pageSize\"\r\n\r\n5\r\n------WebKitFormBoundaryF6quFmwebhfAAbyi--\r\n",
+        "request_headersSize": 1381,
+        "request_bodySize": 680,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "54"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:58:25 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 54,
+            "mimeType": "application/json",
+            "compression": -1,
+            "text": "{\"hitCount\":\"0\",\"results\":[],\"facets\":[],\"status\":200}"
+        },
+        "response_content_size": 54,
+        "response_content_compression": -1,
+        "response_content_mimeType": "application/json",
+        "response_content_text": "{\"hitCount\":\"0\",\"results\":[],\"facets\":[],\"status\":200}",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 274,
+        "response_bodySize": 55,
+        "timings_blocked": 83.35700004523993,
+        "timings_dns": -1,
+        "timings_connect": -1,
+        "timings_send": 0.07200000000000001,
+        "timings_wait": 289.9180000572726,
+        "timings_receive": 0.932999886572361,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/search/searchNew",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    },
+    "fxyaqenk": {
+        "startedDateTime": "2023-01-24T13:58:26.078Z",
+        "time": 81.23299995252489,
+        "serverIPAddress": "192.168.150.209",
+        "connection": "329513",
+        "request_method": "OPTIONS",
+        "request_url": "http://192.168.150.209:8081/search/searchNew",
+        "request_httpVersion": "HTTP/1.1",
+        "request_cookies": [],
+        "request_headers": [
+            {
+                "name": "Accept",
+                "value": "*/*"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "en-US,en;q=0.9"
+            },
+            {
+                "name": "Access-Control-Request-Headers",
+                "value": "authorization"
+            },
+            {
+                "name": "Access-Control-Request-Method",
+                "value": "POST"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Host",
+                "value": "192.168.150.209:8081"
+            },
+            {
+                "name": "Origin",
+                "value": "http://localhost:3000"
+            },
+            {
+                "name": "Referer",
+                "value": "http://localhost:3000/"
+            },
+            {
+                "name": "Sec-Fetch-Mode",
+                "value": "cors"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+            }
+        ],
+        "request_queryString": [],
+        "request_postData": {},
+        "request_postData_mimeType": "",
+        "request_postData_params": [],
+        "request_postData_text": "",
+        "request_headersSize": 461,
+        "request_bodySize": 0,
+        "response_status": 200,
+        "response_statusText": "",
+        "response_httpVersion": "HTTP/1.1",
+        "response_cookies": [],
+        "response_headers": [
+            {
+                "name": "Access-Control-Allow-Headers",
+                "value": "authorization"
+            },
+            {
+                "name": "Access-Control-Allow-Methods",
+                "value": "POST"
+            },
+            {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+            },
+            {
+                "name": "Access-Control-Max-Age",
+                "value": "1800"
+            },
+            {
+                "name": "Allow",
+                "value": "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Content-Length",
+                "value": "0"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 24 Jan 2023 13:58:25 GMT"
+            },
+            {
+                "name": "Keep-Alive",
+                "value": "timeout=60"
+            },
+            {
+                "name": "Vary",
+                "value": "Origin"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "Vary",
+                "value": "Access-Control-Request-Headers"
+            }
+        ],
+        "response_content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 405
+        },
+        "response_content_size": 0,
+        "response_content_compression": 405,
+        "response_content_mimeType": "x-unknown",
+        "response_content_text": "",
+        "response_content_encoding": "",
+        "response_redirectURL": "",
+        "response_headersSize": 405,
+        "response_bodySize": -405,
+        "timings_blocked": -0.5780000000000001,
+        "timings_dns": 0.08100000000000002,
+        "timings_connect": 8.825,
+        "timings_send": 0.1639999999999997,
+        "timings_wait": 71.62500004687905,
+        "timings_receive": 0.5379999056458473,
+        "timings_ssl": -1,
+        "request_protocol": "http",
+        "request_hostname": "192.168.150.209",
+        "request_path": "/search/searchNew",
+        "request_port": 8081,
+        "saml_request": "",
+        "saml_response": ""
+    }
+}

@@ -1,3 +1,4 @@
+import json
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QTextCursor
 
@@ -23,7 +24,17 @@ class EntrySelector():
 
     def _collectData(self):
         row_id = self.app.entries_table.item(self.app.entries_table.currentRow(), 0).text()
+        request=self.app.har_parsed
         self.entry_data = self.app.har_parsed[row_id]
+        JsonData=json.dumps(request)
+        #JsonData=json.dumps(request,indent=4)
+        for json_dict in JsonData:
+             for key,value in json_dict.iteritems():
+                 print("key: {0} | value: {1}".format(key, value))
+
+        d=JsonData
+        with open("sample.json", "w") as outfile:
+            outfile.write(JsonData)
 
     def _prepareTabs(self):
         """Clear the textboxes and remove any highlighting."""

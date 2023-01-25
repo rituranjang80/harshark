@@ -16,6 +16,8 @@ from harshark_exceptions import HarImportException
 from actions.generic import colourizeCells
 from actions.generic import resizeColumns
 from actions.generic import toggleColumnVisibility
+import datetime
+
 
 class FileImporter():
     def __init__(self, app):

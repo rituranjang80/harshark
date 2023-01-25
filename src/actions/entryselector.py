@@ -1,6 +1,10 @@
 import json
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QTextCursor
+import datetime
+import time
+
+
 
 from actions.generic import clearTabSearch
 
@@ -26,14 +30,21 @@ class EntrySelector():
         row_id = self.app.entries_table.item(self.app.entries_table.currentRow(), 0).text()
         request=self.app.har_parsed
         self.entry_data = self.app.har_parsed[row_id]
-        JsonData=json.dumps(request)
+        
         #JsonData=json.dumps(request,indent=4)
-        for json_dict in JsonData:
-             for key,value in json_dict.iteritems():
-                 print("key: {0} | value: {1}".format(key, value))
+        list = []
+        for key in request.keys():
+            #list.append(key)
+            data=request[key]
+            list.append(data)
 
-        d=JsonData
-        with open("sample.json", "w") as outfile:
+        JsonData=json.dumps(list)
+        ts = time.time()
+
+        fileName="HAR.json"+str(datetime.datetime.utcnow())
+        fileName="HAR_"+str(datetime.datetime.fromtimestamp(ts).strftime('%Y_%m_%d %H_%M_%S'))+".json"
+
+        with open(fileName, "w") as outfile:
             outfile.write(JsonData)
 
     def _prepareTabs(self):

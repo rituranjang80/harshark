@@ -12,8 +12,14 @@ class Transformer(models.Model):
 		null=True)
 	alive = models.BooleanField(default=False)
 
+	
 	class Meta:
 		ordering = ('name',)
+	def to_representation(self, instance):
+			data = super(Transformer, self).to_representation(instance)
+			data.update("")
+			return data
+
 
 	def __str__(self):
 		return self.name

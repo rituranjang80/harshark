@@ -4,16 +4,34 @@ from rest_framework.parsers import JSONParser
 
 from .models import Transformer
 from .serializers import TransformerSerializer
+import os
+import json
+
 
 @csrf_exempt
 def transformer_list(request):
 	"""
 	List all transformers, or create a new transformer
 	"""
-	if request.method == 'GET':
-		transformer = Transformer.objects.all()
-		serializer = TransformerSerializer(transformer, many=True)
-		data='{"name":"John", "age":30, "car":null}'
+	if request.method != 'qqGET':
+		PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+		file_ = (os.path.join(PROJECT_ROOT, 'sample.json'))
+		requestURL='http://192.168.150.209:8081/auth/login'
+		requestURL=request.path#'/api/v1/transformer'
+		with open(file_, 'r') as f:
+			json_object = json.loads(f.read())
+			for x in json_object:
+				str=x["request_url"]
+				replaceString=str.replace('http://192.168.150.209:8081', '')
+				if replaceString == requestURL:
+
+				#if x["request_url"] == requestURL:
+					return JsonResponse(json.loads(x["response_content"]["text"]))
+					#return JsonResponse(x["response_content"]["text"], safe=False)    		
+		print(type(json_object))
+		# transformer = Transformer.objects.all()
+		# serializer = TransformerSerializer(transformer, many=True)
+		# data='{"name":"John", "age":30, "car":null}'
 		return JsonResponse(data, safe=False)
 		#return JsonResponse(serializer.data, safe=False)
 

@@ -78,6 +78,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'transformer.middleware.RequestLogMiddleware.RequestLogMiddleware',
+    # 'transformer.middleware.corsMiddleware.corsMiddleware' ,
     'movies.middleware.RequestLogMiddleware.RequestLogMiddleware'
 ]
 

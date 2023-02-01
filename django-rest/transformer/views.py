@@ -21,13 +21,15 @@ def HarFileFilter(request):
 				str=x["request_path"]				
 				# replaceString=str.replace('http://192.168.150.209:8081/', '')
 				if str == requestURL:
-					 if hasattr(request.POST, 'data')==False:						
+					if hasattr(request.POST, 'data')==False:						
+							return JsonResponse(json.loads(x["response_content"]["text"]))					
+					if hasattr(x['request_postData'], 'params')==False:						
 							return JsonResponse(json.loads(x["response_content"]["text"]))
 					reqBody=request.POST['data']
 					reqBodyData=x['request_postData']['params'][0]['value']
 					if reqBody==reqBodyData:
-					 	return JsonResponse(json.loads(x["response_content"]["text"]))
-							
+						return JsonResponse(json.loads(x["response_content"]["text"]))
+								
 
 @csrf_exempt
 def transformer_list(request):

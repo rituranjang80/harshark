@@ -65,6 +65,7 @@ INSTALLED_APPS = [
     'movies',
     'transformer',
     'rest_framework_swagger',
+    'corsheaders',
 ]
 
 SITE_ID = 1
@@ -72,14 +73,21 @@ SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'transformer.middleware.RequestLogMiddleware.RequestLogMiddleware',
+    # 'transformer.middleware.RequestLogMiddleware.RequestLogMiddleware',
     # 'transformer.middleware.corsMiddleware.corsMiddleware' ,
-    'movies.middleware.RequestLogMiddleware.RequestLogMiddleware'
+    # 'movies.middleware.RequestLogMiddleware.RequestLogMiddleware',
+    
+    
+]
+CORS_ALLOWED_ORIGINS = [
+    '*',
+    'http://localhost:3000',
 ]
 
 ROOT_URLCONF = 'api_crud.urls'
